@@ -3,7 +3,7 @@ const shuffle = require("../src/shuffle");
 describe("shuffle should...", () => {
   // CODE HERE
   test("test if shuffle returns array",() =>{
-    expect(Array.isArray(shuffle())).toBe(true)
+    expect(Array.isArray(shuffle())).toBeTruthy();
   });
   test("test if shuffle returns array of same length as arg passed",() =>{
     expect(shuffle([5,6,7]).length).toBe(3)
