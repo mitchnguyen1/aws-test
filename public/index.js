@@ -12,7 +12,7 @@ const lossesTest = document.querySelector("#losses");
 const chooseHeader = document.querySelector("#choose-header");
 const yourDuoHeader = document.querySelector("#your-duo-header");
 const compDuoHeader = document.querySelector("#comp-duo-header");
-const baseURL = `http://52.24.147.115/`
+const baseURL = `http://52.24.147.115`
 
 let choices = [];
 let compDuo = [];
